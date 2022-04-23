@@ -1,0 +1,193 @@
+
+/* Box Model Hack */
+*{
+    box-sizing: border-box;
+  }
+  
+  /******************************************
+  /* LAYOUT
+  /*******************************************/
+  html{
+      font-size: 62.5%;
+  }
+  main{
+      display: flex;
+  }
+  header{
+      text-align: center;
+      width: 100vw;
+      font-family:'Courier New', Courier, monospace;
+      font-size:1.5rem;
+  }
+  span{
+      font-size: 1.25rem;
+  }
+  body{
+      height: 100vh;
+      width: 100vw;
+  }
+  img{
+    display: block;
+    margin: 0 auto;
+  }
+  ol{
+      list-style-type: none;
+  }
+  li{
+      list-style-type: none;
+  }
+  section{
+      display: flex;
+  }
+  
+  /******************************************
+  /* ADDITIONAL STYLES
+  /*******************************************/
+  .oneToTenContainer{
+      flex: 1 25%;
+      display: flex;
+      flex-flow: column;
+      height: 100%;
+      width: 25%;
+      justify-content: space-between;
+      border: 2px solid black;
+      text-align: center;
+      margin-left: 1.5px;
+  }
+  .one{
+    font-size: 6rem;
+    color: magenta;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    border-bottom: 2px solid black;
+    align-items: stretch;
+    padding: 5%;
+    flex-shrink: 1;
+    flex-grow: 2;
+  }
+  .two{
+    font-size: 2.6rem;
+    color: rgb(143, 247, 7);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-style: italic;
+    border-bottom: 2px solid black;
+    padding: 5%;
+    flex-shrink: 1;
+    flex-grow: 2;
+}
+.three{
+    font-size: 4rem;
+    color: whitesmoke;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bolder;
+    border-bottom: 2px solid black;
+    padding: 5%;
+    text-shadow: 4px 4px 8px #000000;
+    flex-shrink: 1;
+    flex-grow: 2;
+}
+.four{
+    font-size: 7.5rem;
+    color: rgb(0, 153, 255);
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: bold;
+    font-stretch: extra-expanded;
+    border-bottom: 2px solid black;
+    padding: 5%;
+    flex-shrink: 3;
+    flex-grow: 2;
+}
+.five{
+    font-size: 4.3rem;
+    color: rgb(4, 168, 127);
+    font-family: 'Comic Sans', 'Courier New', Courier, monospace;
+    font-style: oblique;
+    font-weight: 500;;
+    font-variant: small-caps;
+    border-bottom: 2px solid black;
+    padding: 5%;
+    text-shadow: 0 0 3px white, 0 0 5px #050536;
+    flex-shrink: 1;
+    flex-grow: 2;
+}
+.six{
+    font-size: 3.2rem;
+    color: rgb(255, 17, 0);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bolder;
+    border-bottom: 2px solid black;
+    padding: 5%;
+    flex-shrink: 1;
+    flex-grow: 2;
+}
+.seven{
+    font-size: 5rem;
+    color: rgb(5, 5, 5);
+    font-family: Garamond, Palatino, 'Times New Roman', Times, serif;
+    font-style: italic;
+    font-weight: bolder;
+    font-stretch: condensed;
+    border-bottom: 2px solid black;
+    padding: 5%;
+    flex-shrink: 1;
+    flex-grow: 2;
+}
+.eight{
+    font-size: 8rem;
+    color: rgb(230, 147, 233);
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif, monospace;
+    font-weight: 500;
+    font-stretch: semi-expanded;
+    border-bottom: 2px solid black;
+    padding: 5%;
+    flex-shrink: 3;
+    flex-grow: 2;
+}
+.nine{
+    font-size: 3.5rem;
+    color: rgb(16, 128, 44);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 300;
+    font-variant:small-caps;
+    font-stretch: narrower;
+    border-bottom: 2px solid black;
+    padding: 5%;
+    flex-shrink: 1;
+    flex-grow: 2;
+}
+.ten{
+    font-size: 9rem;
+    color: rgb(65, 3, 94);
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    font-style: oblique;
+    font-stretch: wider;
+    font-weight: 800;
+    font-variant-numeric: slashed-zero;
+    text-shadow: 2px 2px 8px blueviolet;
+    padding: 5%;
+    flex-shrink: 3;
+    flex-grow: 2;
+}
+.answer{
+    font-size: 15px;
+}
+.numerology{
+    flex: 2 75%;
+    height: 50%;
+    display: flex;
+    flex-flow: column;
+    flex-wrap: wrap;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 2rem;
+    border-bottom: 2px solid indigo;
+    color:indigo;
+    background-color:lavender;
+    padding: 10px;
+}
+.hidden{
+    display: none;
+}
+#month, #year, #day, .button{
+    width: 30%;
+}
