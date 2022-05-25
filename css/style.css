@@ -196,7 +196,7 @@
     font-style: oblique;
     font-stretch: wider;
     font-weight: 800;
-    font-variant-numeric: slashed-zero;
+    /* font-variant-numeric: slashed-zero; */
     text-shadow: 2px 2px 8px blueviolet;
     padding: 5%;
     flex-shrink: 3;
